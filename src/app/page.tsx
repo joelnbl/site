@@ -12,7 +12,7 @@ export default function Home(): ReactElement {
     <div className="flex gap-2 justify-between">
       <div>
         <h1 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-          Joel Nazareth Bello Lara
+          Joel Bello
         </h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Full Stack Developer con más de 6 años de experiencia
@@ -30,8 +30,8 @@ export default function Home(): ReactElement {
       </div>
 
       <Avatar>
-        <AvatarImage src="https://x.com/joelnbl/photo" alt="@shadcn" />
-        <AvatarFallback>CN</AvatarFallback>
+        <AvatarImage src="https://pbs.twimg.com/profile_images/1851756993830158336/w8haeC-w_400x400.jpg" alt="@shadcn" />
+        <AvatarFallback>JB</AvatarFallback>
       </Avatar>
       
     </div>
