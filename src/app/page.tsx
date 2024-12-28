@@ -1,13 +1,11 @@
 'use client';
 
+import type { ReactElement } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, MapPinHouse, Phone, X } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
-export default function Home() {
-  const router = useRouter();
+export default function Home(): ReactElement {
   return (
     <div>
 
