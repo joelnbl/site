@@ -37,19 +37,19 @@ export default function Home(): ReactElement {
     </div>
 
     <div className="flex gap-1 mt-4 space-x-2">
-      <Link href="#" target='_blank'>
+      <a href="mailto:joelumc@gmail.com">
           <Mail size={20}/> 
-      </Link>
-        <Link href="#" target="_blank">
+       </a>
+       <a href={`tel:+34628528296`}>
           <Phone size={20}/> 
-        </Link>
-        <Link href="#" target="_blank">
+        </a>
+        <Link href="https://www.linkedin.com/in/joelnbl/" target="_blank">
         <Linkedin size={20}/>
         </Link>
-        <Link href="#" target="_blank">
+        <Link href="https://x.com/joelnbl" target="_blank">
           <X size={20}/> 
         </Link>
-        <Link href="#" target="_blank">
+        <Link href="https://github.com/joelnbl" target="_blank">
           <Github size={20}/> 
         </Link>
       </div>
