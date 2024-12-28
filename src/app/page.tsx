@@ -30,7 +30,7 @@ export default function Home(): ReactElement {
       </div>
 
       <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+        <AvatarImage src="https://x.com/joelnbl/photo" alt="@shadcn" />
         <AvatarFallback>CN</AvatarFallback>
       </Avatar>
       
