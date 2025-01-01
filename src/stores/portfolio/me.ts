@@ -11,5 +11,5 @@ export const createMeSlice: StateCreator<MeSlice> = () => ({
   name: '',
   biography: '',
   quote: '',
-  location: ''
+  location: '',
 });
