@@ -5,11 +5,27 @@ export interface MeSlice {
   biography: string;
   quote: string;
   location: string;
+  about_me: string;
+  social_networks: {
+    email: string;
+    phone: string;
+    linkedin: string;
+    x: string;
+    github: string;
+  };
 }
 
 export const createMeSlice: StateCreator<MeSlice> = () => ({
   name: '',
   biography: '',
   quote: '',
-  location: ''
+  location: '',
+  about_me: '',
+  social_networks: {
+    email: '',
+    phone: '',
+    linkedin: '',
+    x: '',
+    github: ''
+  }
 });
