@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/next';
 
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +29,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="min-h-screen flex flex-col justify-between pt-0 mt-8 md:pt-8 p-8 bg-white text-gray-900">
+      <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            
+        <div className="min-h-screen flex flex-col justify-between pt-0 mt-8 md:pt-8 p-8">
           <main
             className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-[60ch] mx-auto w-full space-y-6`}
           >
@@ -38,6 +46,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );
