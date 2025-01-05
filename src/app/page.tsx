@@ -21,7 +21,6 @@ export default function Page(): ReactElement {
 
   return (
     <>
-    <div className="bg-white z-10">
 
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
@@ -53,7 +52,6 @@ export default function Page(): ReactElement {
         <section>
         </section>
       </main>
-    </div>
     <h2 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl">
         Portafolio
       </h2>
