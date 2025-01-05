@@ -23,7 +23,7 @@ const Hero = (): ReactElement => {
     <>
     <div className="flex gap-2 justify-between">
       <div>
-        <h1 className="mt-6 scroll-m-20 border-b pb-2 text-4xl tracking-tight transition-colors first:mt-0">
+        <h1 className="mt-6 scroll-m-20 text-4xl tracking-tight transition-colors first:mt-0">
           {name}
         </h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
@@ -41,7 +41,7 @@ const Hero = (): ReactElement => {
       </div>
 
       <Avatar>
-        <AvatarImage src="https://pbs.twimg.com/profile_images/1851756993830158336/w8haeC-w_400x400.jpg" alt="@shadcn" />
+        <AvatarImage src="https://media.licdn.com/dms/image/v2/D4E03AQGHYLaUJyxy8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715201495230?e=1741824000&v=beta&t=9PVZmeIPJm18EvXqdWMCKm1XosSR8YxmDk_8HLN2X8E" alt="@shadcn" />
         <AvatarFallback>JB</AvatarFallback>
       </Avatar>
       

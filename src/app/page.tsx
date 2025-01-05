@@ -13,12 +13,16 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Stack from "@/components/stack";
+import { Demo } from "@/components/demo";
 
 export default function Page(): ReactElement {
   const { setTheme } = useTheme();
 
   return (
     <>
+    <div className="bg-white z-10">
+
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button variant="outline" size="icon">
@@ -39,9 +43,23 @@ export default function Page(): ReactElement {
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
-      <main className="container mx-auto px-4 ">
+      <main className="container mx-auto px-4 mt-4">
+       <section>
         <Hero />
+       </section>
+       <section>
+        <Stack />
+       </section>
+        <section>
+        </section>
       </main>
+    </div>
+    <h2 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl">
+        Portafolio
+      </h2>
+         <div className="relative top-0">
+         <Demo />
+         </div>
     </>
   );
 }
