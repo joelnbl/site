@@ -14,7 +14,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Stack from "@/components/stack";
-import { Demo } from "@/components/demo";
 
 export default function Page(): ReactElement {
   const { setTheme } = useTheme();
