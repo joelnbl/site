@@ -52,12 +52,6 @@ export default function Page(): ReactElement {
         <section>
         </section>
       </main>
-    <h2 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl">
-        Portafolio
-      </h2>
-         <div className="relative top-0">
-         <Demo />
-         </div>
     </>
   );
 }
