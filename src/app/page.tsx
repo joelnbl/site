@@ -13,7 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import Stack from "@/components/stack";
+// import Stack from "@/components/stack";
 
 export default function Page(): ReactElement {
   const { setTheme } = useTheme();
@@ -45,9 +45,9 @@ export default function Page(): ReactElement {
        <section>
         <Hero />
        </section>
-       <section>
+       {/* <section>
         <Stack />
-       </section>
+       </section> */}
         <section>
         </section>
       </main>
