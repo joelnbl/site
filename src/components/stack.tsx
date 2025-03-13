@@ -15,7 +15,7 @@ const Stack = () => {
             key={name}
             className="flex flex-col items-center justify-center gap-2 rounded-lg border p-4"
           >
-            <Icon className="h-8 w-8" />
+            <Icon />
             <span className="text-sm text-gray-600">{name}</span>
           </div>
         ))}
